@@ -24,6 +24,7 @@ const MealItemForm = (props) => {
     };
     return (
         <form className={classes.form} onSubmit={submitHandler}>
+
             <Input
                 ref={amountInputRef}
                 label="Amount"
@@ -36,6 +37,7 @@ const MealItemForm = (props) => {
                     defaultValue: "1",
                 }}
             />
+            
             <button>+ Add</button>
             {!amountIsvalid && <p>Please ente a valid amount (1-5)</p>}
         </form>
