@@ -17,6 +17,7 @@ const MealItem = (props) => {
     };
 
     return (
+        // <li className={classes.meal}>
         <li className={classes.meal}>
             <div>
                 <h3>{props.name}</h3>
